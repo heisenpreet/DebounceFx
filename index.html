@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
+    <style>
+      body {
+        margin: 0 auto;
+        height: 100vh;
+        background-color: aqua;
+        font-size: 1.9rem;
+      }
+      .container {
+        height: 100%;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+      }
+      #input__field {
+        width: 30vw;
+        height: 10vh;
+        font-size: inherit;
+      }
+    </style>
+    <title>Debounce Fx</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="#">
+        <input type="text" id="input__field" />
+      </form>
+      <h2 id="heading">Default: <span id="default"></span></h2>
+      <h2 id="heading">Debounce: <span id="debounce"></span></h2>
+    </div>
+  </body>
+</html>
